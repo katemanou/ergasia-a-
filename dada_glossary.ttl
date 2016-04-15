@@ -1,0 +1,39 @@
+@prefix km: <http://dilab77.ionio.gr/swp/manousidaki/vocab#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+_:bdnode0 rdf:type rdfs:Didaskalia .
+_:bdnode1 rdf:type rdfs:Didaskalia .
+_:bdnode2 rdf:type rdfs:Didaskalia .
+_:bdnode3 rdf:type rdfs:Didaskalia . 
+_:bdnode4 rdf:type rdfs:Didaskalia .
+_:bdnode5 rdf:type rdfs:Didaskalia .
+_:bdnode6 rdf:type rdfs:Didaskalia .
+_:bdnode7 rdf:type rdfs:Didaskalia .
+_:bdnode8 rdf:type rdfs:Didaskalia .
+ 
+
+<http://dilab77.ionio.gr/swp/manousidaki/resource/ΜΥΛΩΝΑΣ> rdf:type km:Didaskontas .
+<http://dilab77.ionio.gr/swp/manousidaki/resource/ΒΛΑΜΟΣ> rdf:type km:Didaskontas .
+<http://dilab77.ionio.gr/swp/manousidaki/resource/ΠΑΤΕΛΗ> rdf:type km:Didaskontas .
+<http://dilab77.ionio.gr/swp/manousidaki/resource/ΜΑΓΚΟΣ> rdf:type km:Didaskontas .
+<http://dilab77.ionio.gr/swp/manousidaki/resource/ΣΤΕΦΑΝΙΔΑΚΗΣ> rdf:type km:Didaskontas .
+<http://dilab77.ionio.gr/swp/manousidaki/resource/ΚΕΡΜΑΝΙΔΟΥ> rdf:type km:Didaskontas .
+<http://dilab77.ionio.gr/swp/manousidaki/resource/ΟΙΚΟΝΟΜΟΥ> rdf:type km:Didaskontas .
+<http://dilab77.ionio.gr/swp/manousidaki/resource/ΑΥΛΩΝΙΤΗΣ> rdf:type km:Didaskontas .
+
+
+<http://dilab77.ionio.gr/swp/manousidaki/resource/ΕΞΟΡΥΞΗ> rdf:type km:Mathima .
+<http://dilab77.ionio.gr/swp/manousidaki/resource/ΣΗΜΑΣΙΟΛΟΓΙΚΟΣ> rdf:type km:Mathima .
+<http://dilab77.ionio.gr/swp/manousidaki/resource/ΒΙΟΠΛΗΡΟΦΟΡΙΚΗ> rdf:type km:Mathima .
+<http://dilab77.ionio.gr/swp/manousidaki/resource/ΠΛΗΡ%20ΣΤΗΝ%20ΕΚΠ> rdf:type km:Mathima .
+<http://dilab77.ionio.gr/swp/manousidaki/resource/ΠΛΗΡ%20ΚΑΙ%20ΝΕΑ%20ΜΕΣΑ> rdf:type km:Mathima .
+<http://dilab77.ionio.gr/swp/manousidaki/resource/ΗΕ> rdf:type km:Mathima .
+<http://dilab77.ionio.gr/swp/manousidaki/resource/ΨΥΧ%20ΛΟΓ> rdf:type km:Mathima .
+<http://dilab77.ionio.gr/swp/manousidaki/resource/ΑΣΦ%20ΠΣ%20ΚΑΙ%20ΔΙΚΤΥΩΝ> rdf:type km:Mathima .
+<http://dilab77.ionio.gr/swp/manousidaki/resource/ΠΡΟΣ%20ΚΑΙ%20ΜΟΝΤ> rdf:type km:Mathima .
+
+
+<http://dilab77.ionio.gr/swp/manousidaki/resource/ΓΑΛΗΝΟΣ> rdf:type km:Aithoysa .
+

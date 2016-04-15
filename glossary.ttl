@@ -1,0 +1,44 @@
+@prefix km: <http://dilab77.ionio.gr/swp/manousidaki/vocab#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/> . 
+
+
+
+km:Didaskontas rdf:type rdfs:Class .
+km:Didaskalia rdf:type rdfs:Class .
+km:Aithoysa rdf:type rdfs:Class .
+km:Mathima rdf:type rdfs:Class .
+km:Didaskontas rdfs:subClass foaf:Person . 
+
+
+
+km:paradidetaiapo rdf:type rdf:Property .
+km:paradidetaiapo rdfs:domain rdfs:Didaskalia .
+km:paradidetaiapo rdfs:range rdfs:Didaskontas .
+
+km:paradidetaistin rdf:type rdf:Property .
+km:paradidetaistin rdfs:domain rdfs:Didaskalia .
+km:paradidetaistin rdf:range rdfs:Aithoysa .
+ 
+km:pragmatopoieitaistin rdf:type rdf:Property .
+km:pragmatopoieitaistin rdfs:domain rdfs:Didaskalia . 
+km:pragmatopoieitaistin rdfs:range rdfs:Mathima . 
+
+km:hmera rdf:type rdf:Property .
+km:hmera rdfs:domain rdfs:Didaskalia . 
+km:hmera rdfs:range rdfs:Literal .
+
+km:wraen rdf:type rdf:Property . 
+km:wraen rdfs:domain rdfs:Didaskalia .
+km:wraen rdfs:range xsd:time . 
+
+km:wraliksis rdf:type rdf:Property . 
+km:wraliksis rdf:domain rdf:Didaskalia .
+km:wraliksis rdfs:range xsd:time .
+
+km:examino rdf:type rdf:Property . 
+km:examino rdfs:domain rdfs:Didaskalia . 
+km:examino rdfs:range rdfs:Literal . 
+
